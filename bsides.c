@@ -1,15 +1,16 @@
 /*
  *
  *	By @HypnZA for BSides Cape Town 2016
- *	Using LOTS of code by Doug Fraker (specifically "Spacy" and "lesson7")
+ *	Using LOTS of code by Doug Fraker
  *
  *  See https://nesdoug.com/ for Doug's NES programming tutorials
- *  or http://www.hypn.za.net/bsides_nes for more information about this game
+ *  or http://www.hypn.za.net/blog/2016/12/05/bsides-2016-nes-game/ for more information about this game
  *
  * Game Genie Codes:
  *   AAYKAT - show "hacked" screen (challenge success)
  *   AELKIT - show megaman animation
  *   AEGKIT - show "hack the planet" screen
+ *
  */
 
 #include "DEFINE.c"
@@ -148,9 +149,6 @@ void main (void) {
 		// end of megaman animation - loop back to the start
 		} else if (screenNum == 15) {
 			megaManStartScreen();
-
-		} else if (screenNum == 16) {
-			Load_Palette();
 		}
 
 		NMI_flag = 0;
