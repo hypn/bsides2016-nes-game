@@ -1,10 +1,10 @@
 @echo off
 
+set CC65_HOME=..\cc65
+
+set path=%path%;%CC65_HOME%\bin\
+
 set name="bsides"
-
-set path=%path%;..\bin\
-
-set CC65_HOME=..\
 
 cc65 -Oi %name%.c --add-source
 ca65 reset.s

@@ -1,7 +1,7 @@
 /*
  *
  *	By @HypnZA for BSides Cape Town 2016
- *	Using LOTS of code by Doug Fraker
+ *	Using LOTS of code by Doug Fraker (specifically "Spacy" and "lesson7")
  *
  *  See https://nesdoug.com/ for Doug's NES programming tutorials
  *  or http://www.hypn.za.net/blog/2016/12/05/bsides-2016-nes-game/ for more information about this game
