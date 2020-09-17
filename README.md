@@ -30,8 +30,8 @@ docker run --rm -v $PWD:/src hypnza/cc65-for-nes bash -c "cd /src && ./compile.s
 ```
 
 **Using Windows:**
-	* download "cc65" https://cc65.github.io/#Links
-	* extract somewhere (eg: in to this repo's directory, or parent directory)
-	* modify "compile.bat" and set `CC65_HOME` to extracted path
-	* run `compile.bat`
+* download "cc65" https://cc65.github.io/#Links
+* extract somewhere (eg: in to this repo's directory, or parent directory)
+* modify "compile.bat" and set `CC65_HOME` to extracted path
+* run `compile.bat`
 
